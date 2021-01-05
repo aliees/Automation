@@ -1,0 +1,8 @@
+12:23:25.232 [main] INFO  resources.DriverUtil - Invoice created
+13:32:16.555 [main] INFO  resources.DriverUtil - driver initiated
+13:32:46.756 [main] INFO  resources.DriverUtil - logged in!
+13:32:55.468 [main] INFO  resources.DriverUtil - Customer created
+13:33:04.649 [main] INFO  resources.DriverUtil - Invoice created
+13:37:04.926 [main] INFO  resources.DriverUtil - driver initiated
+13:37:31.619 [main] INFO  resources.DriverUtil - logged in!
+13:37:40.394 [main] INFO  resources.DriverUtil - Customer created

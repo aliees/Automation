@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="61919" started-at="2021-01-04T13:36:58 IST" finished-at="2021-01-04T13:38:00 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="61919" started-at="2021-01-04T13:36:58 IST" finished-at="2021-01-04T13:38:00 IST">
+      <class name="automation.demo.signIn">
+        <test-method status="PASS" signature="test_login_Navigation()[pri:0, instance:automation.demo.signIn@26794848]" name="test_login_Navigation" duration-ms="61886" started-at="2021-01-04T13:36:58 IST" finished-at="2021-01-04T13:38:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_Navigation -->
+      </class> <!-- automation.demo.signIn -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
