@@ -70,7 +70,7 @@ private DriverUtil () {
 	public WebDriver getDriver(String browserName) {
 		if(browserName.equals("chrome" ))
 		{
-			 System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
+			 System.setProperty("webdriver.chrome.driver", "./chromeDriver./chromedriver.exe");
 		     return new ChromeDriver();
 				//execute in chrome driver
 			

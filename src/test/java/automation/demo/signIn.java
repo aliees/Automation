@@ -12,6 +12,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
+import com.github.javafaker.Faker;
+
 import pageObject.createInvoice;
 import pageObject.customerPage;
 import pageObject.customers;
@@ -29,7 +31,9 @@ public class signIn  {
 	private Properties properties;
 	private static Logger log =LogManager.getLogger(DriverUtil.class.getName());
 	@Test
+	
 	public void test_login_Navigation() throws IOException, InterruptedException {
+		Faker f = new Faker();
 		driverUtil=DriverUtil.getInstance();
 		log.info("driver initiated");
 		driver=driverUtil.getDriver();
@@ -55,17 +59,17 @@ public class signIn  {
 		//To get all the elements from page object we have created object of addCustomer
 		//To test_create_new customer
 		addCustomer ac = new addCustomer(driver);
-		
-		ac.getName().sendKeys("tejesh9111");;
-		ac.getMobile().sendKeys("2244564890");
-		ac.getEmail().sendKeys("aliees@procureli.com");
+		String firstName = f.name().firstName();
+		ac.getName().sendKeys(firstName);
+		ac.getMobile().sendKeys(f.phoneNumber().cellPhone());
+		ac.getEmail().sendKeys(firstName+"@procureli.com");
 		ac.getSave().click();
 		log.info("Customer created");
 		
 		db.getCollections().click();
 
 		db.getCustomer().click();
-		Thread.sleep(4000);
+		Thread.sleep(5000);
 		customers cus = new customers(driver);
 		cus.getClcikCust().click();
 		Thread.sleep(3000);

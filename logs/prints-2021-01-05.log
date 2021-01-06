@@ -1,8 +1,8 @@
-12:30:59.322 [main] INFO  resources.DriverUtil - driver initiated
-12:34:43.418 [main] INFO  resources.DriverUtil - driver initiated
-12:57:10.668 [main] INFO  resources.DriverUtil - driver initiated
-12:57:34.995 [main] INFO  resources.DriverUtil - logged in!
-12:57:43.770 [main] INFO  resources.DriverUtil - Customer created
-12:57:53.394 [main] INFO  resources.DriverUtil - Invoice created
-12:58:03.414 [main] INFO  resources.DriverUtil - Transfer initiated
-14:38:49.181 [main] INFO  resources.DriverUtil - driver initiated
+21:35:00.627 [main] INFO  resources.DriverUtil - Customer created
+21:35:14.276 [main] INFO  resources.DriverUtil - Invoice created
+21:35:24.460 [main] INFO  resources.DriverUtil - Transfer initiated
+21:48:09.572 [main] INFO  resources.DriverUtil - driver initiated
+21:48:39.250 [main] INFO  resources.DriverUtil - logged in!
+21:49:09.641 [main] INFO  resources.DriverUtil - Invoice created
+21:49:20.723 [main] INFO  resources.DriverUtil - Transfer initiated
+21:51:38.626 [main] INFO  resources.DriverUtil - driver initiated
